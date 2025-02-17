@@ -15,7 +15,7 @@
             </div>
             <ul class="nav-bar">
                 <li><a href="index.php">HOME</a></li>
-                <li><a href="#">CLIENTE</a></li>
+                <li><a href="cliente.php">CLIENTE</a></li>
                 <li><a href="#">CAIXA</a></li>
             </ul>
         </nav>

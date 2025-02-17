@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 html{
    min-height: 100vh;
@@ -24,12 +25,13 @@ html{
 .nav-bar{
     display: flex;
     list-style-type: none;
+    margin-right: 30px;
 }
 .container-user{
     background-color: white;
     color: #0169a5;
     border-radius: 5px;
-    margin-left: 5px;
+    margin-left: 30px;
     padding: 5px;
 }
 
@@ -63,6 +65,63 @@ a{
     margin: 50px;
 }
 
+/* CLIENTE */
+.container-cadastro {
+    display: block;
+    margin-top: 40px;
+    width: 400px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.title__cadastro{
+    font-size: 1.2em;
+    text-align: center;
+    color: #1378bb;
+    /* background-color: #2784af;
+    
+    border-radius: 5px;
+    width: 400px; */
+}
+input{
+    border-radius: 5px;
+    border: 1px solid #1378bb ;
+    /* border-left:1px solid #1378bb ;
+    border-right:1px solid #1378bb ;
+    border-bottom:1px solid #1378bb ; */
+    display: block;
+    width: 400px;
+    height: 40px;
+    margin:8px;
+    padding: 5px;
+}
+
+.group-datas{
+    display: flex;
+   width: 400px;
+   height: 100px;
+   margin: 10px;
+   padding: 5px;
+   gap:10px;
+}
+.date{
+    width:175px;
+    height: 30px;
+}
+
+select{
+    border-radius: 5px;
+    /* background-color: #faaf3f; */
+    background-color: #faaf3f;
+    border: 0;
+    padding: 5px;
+    width: 400px;
+    height: 30px;
+    margin-left: 9px;
+}
+option{
+    background: #344d5c;
+    /* background: #1378bb; */
+    color:white
+}
 /* FOOTER */
 footer{
     background-color: #0169a5;
