@@ -14,6 +14,10 @@ html{
     justify-content: center;
 }
 
+.d-block{
+    display: block;
+}
+
 .nav{
     height: 40px;
     background-color: #0169a5;
@@ -119,8 +123,71 @@ select{
 }
 option{
     background: #344d5c;
-    /* background: #1378bb; */
     color:white
+}
+
+/* CAIXA */
+.container-caixa{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 30px;
+    gap: 10px;
+}
+
+.cupom{
+    background: #f6fac1;
+    width: 400px;
+    height:330px;
+}
+
+.pre-venda{
+    width: 270px;
+    height: 400px;
+}
+
+.input-venda{
+    border-radius: 5px;
+    border: 1px solid #1378bb ;
+    width: 250px;
+    height: 40px;
+    margin-left: 25px;
+}
+.container-total{
+    margin-left: 27px;
+}
+
+.finalizar{
+    width: 100%;
+    padding: 10px;
+    border: 0;
+    border-radius: 5px;
+    background-color: #0169a5;
+    color: white;
+}
+.group-actions{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.cupom__text{
+   font-size: 14px;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+.img__cupom{
+    padding-top:20px ;
+     width: 100px;
+}
+
+.btn{
+    padding: 10px;
+    border: 0;
+    border-radius: 5px;
+    background-color: #0169a5;
+    color: white;
 }
 /* FOOTER */
 footer{
